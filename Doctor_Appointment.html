@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Doctor Appointment Registration</title>
+<style>
+body{
+text-align:center;
+background-color:#929677;
+}
+h1,p{
+font-family:Arial;
+}
+.profile{
+background-color:white;
+padding:10px;
+margin-top:20px;
+margin-buttom:20px;
+margin-right:100px;
+margin-left:100px;
+border-radius:20px;
+
+}
+.book{
+background-color:white;
+margin-top:20px;
+margin-buttom:20px;
+margin-right:100px;
+margin-left:100px;
+border-radius:20px;
+}
+a{
+text-align:center;
+text-decoration:none;
+padding:30px;
+}
+.book [value="Book Appointment"]{
+background-color:#42914C;
+width:15%;
+barder-radius:20px;
+margin:none;
+}
+
+</style>
+</head>
+<body>
+<h1>Doctor Appointment Registration</h1>
+<p>Book your appointment easily</p>
+<br>
+<a href="#doctors">Doctors</a>
+<a href="#slots">Slots</a>
+<a href="#booking">Book Appointment</a>
+
+<div class="profile" id="doctors">
+<h2>Dr.Arjun Reddy</h2>
+<p><b>Specialization:</b> Cardiologist</p>
+    <p><b>Experience:</b> 10 years </p>
+    <p><b>Timeing:</b> 10:00AM to 1:00PM</p>
+</div>
+<div class="profile">
+<h2>Dr.Shanker rao</h2>
+<p><b>Specialization:</b> Dentist</p>
+    <p><b>Experience:</b> 8 years </p>
+    <p><b>Timeing:</b> 2:00PM to 5:00PM</p>
+</div>
+<br>
+<div class="profile" id="slots">
+<h2>Availabel Appointment Slots</h2>
+<p>
+10:00 AM<br><br>
+11:00 AM <br> <br>          
+12:00 PM <br><br>
+ 2:00 PM<br><br>
+ 3:00 PM<br><br>
+</p> 
+</div> 
+<form>
+<div class="book" id="booking">
+<h2>Patient Registration</h2>
+<label>Name</label><br>
+<input type="text" name="full name"><br><br>
+<label>Age</label><br>
+<input type="number" name="age" min="1" max="100"><br><br>
+<label>Email</label><br>
+<input type="email" name="email" ><br><br>
+<label>Phone Number</label> <br>
+<input type="phone number" name="phone number"><br><br>
+<label>Select the Date</label><br>
+<input type="date" name="select date"><br><br>
+<label>Select the Timeing</label><br>
+<input type="radio" name="time" value="Morning">Morning<br>
+<input type="radio" name="time"   value="Evening">Afternone<br><br>
+<label>Select Doctor</label><br>
+<input type="radio" name="doctor" value="dr.arjun reddy">Dr.Arjun Reddy<br>
+<input type="radio" name="doctor" value="dr.shanker rao">Dr.Shanker rao<br><br>
+<input type="submit" value="Book Appointment"> <br><br>
+<br>
+</div>
+</form>
+</body>
+</html>
+
+

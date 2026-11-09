@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>User Registration and Login</title>
+<style>
+h1{
+text-align:center;
+font-family:Arial;
+color:darkblack;
+}
+.register{
+background-color:white;
+color:black;
+margin:40px;
+border:50px;
+margin-top:25px;
+margin-buttom:25px;
+margin-right:50px;
+margin-left:50px;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+body{
+background-color:#7A6311;
+margin-top:0px;
+margin-bottom:0px;
+margin-left:50px;
+margin-right;50px
+boader:30px;
+padding:50px;
+}
+.register input {
+color:black;
+}
+.register [value="Register"],[value="Login"],[value="Password Recovery"],[value="Save Profile"],[value="Reset"]{
+background-color:darkgreen;
+boader-radius:10px;
+margin:none;
+padding:6px;
+}
+</style>
+</head>
+<body>
+<form>
+<h1>Registration Form</h1>
+<div class="register"><br>
+<h2>Registration</h2>
+<label>Enter Full Name</label><br>
+<input type="text" name="enter your name"><br><br>
+<label>Email Address</label><br>
+<input type="email" name="email"><br><br>
+<label>Enter Password</label><br>
+<input type="password"  name="password"><br><br>
+<input type="submit" value="Register"> <input type="reset" value="Reset"><br>
+</div>
+
+<div class="register"><br>
+<h2>Login</h2>
+<label>Email Address</label><br>
+<input type="email" name="email"><br><br>
+<label>Password</label><br>
+<input type="password" name="Password"><br><br>
+<input type="submit" value="Login">
+<p><a href="#forget">Forget password</a></p>
+</div>
+
+<div class="register"><br>
+<h2>Password Recovery</h2>
+<label>Email Address</label><br>
+<input type="email" name="email"><br><br>
+<input type="submit" value="Password Recovery">
+</div>
+
+<div class="register"><br>
+<h2>Profile Setup</h2>
+<label>Enter First Name</label><br>
+<input type="text" name="first name"><br><br>
+<label>Enter Last Name</label><br>
+<input type="text" name="last name"><br><br>
+<label>Age</label><br>
+<input type="number" name="Age" min="1" max="101"><br><br>
+<label>Add Bio</label><br>
+<input type="text" name="bio"><br><br>
+<input type="submit" value="Save Profile">
+<br>
+<p><b>Note:</b>Please see your Enter details are correct  or not! </p>
+</div>
+</body>
+</html>
+
+
